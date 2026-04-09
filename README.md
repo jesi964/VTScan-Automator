@@ -159,6 +159,11 @@ Flat table export for spreadsheet and SIEM workflows.
 
 Use API key directly:
 
+Simply:
+```powershell
+python .\virustotal.py --api-key YOUR_API_KEY
+```
+
 ```powershell
 python .\virustotal.py --api-key YOUR_API_KEY --stdin-urls --pdf VirusTotal_Report.pdf --json VirusTotal_Report.json --csv VirusTotal_Report.csv --rate-limit-per-minute 4 --lookups-per-minute 4
 ```
