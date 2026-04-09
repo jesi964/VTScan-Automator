@@ -66,6 +66,11 @@ You have two ways to provide URLs:
 
 Example:
 
+Simply:
+```powershell
+python .\virustotal.py --api-key YOUR_API_KEY
+```
+
 ```powershell
 python .\virustotal.py --api-key YOUR_API_KEY --stdin-urls --pdf VirusTotal_Report.pdf --json VirusTotal_Report.json --csv VirusTotal_Report.csv
 ```
