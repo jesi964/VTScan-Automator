@@ -1,4 +1,4 @@
-# VirusTotal Bulk URL Scanner
+# VirusTotal Automator: A Bulk URL scanner
 
 A Python-based bulk URL scanning tool that integrates with the VirusTotal API and generates analyst-friendly reports in PDF, JSON, and CSV.
 
